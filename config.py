@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID",))
-API_HASH = getenv("API_HASH",)
+API_ID = int(getenv("API_ID", "29316152"))
+API_HASH = getenv("API_HASH", "6573372604:AAFoNHhXqhdUIeEps15khL65q9sP1bcGSLk")
 
-BOT_TOKEN = getenv("BOT_TOKEN",)
+BOT_TOKEN = getenv("BOT_TOKEN", "6573372604:AAFoNHhXqhdUIeEps15khL65q9sP1bcGSLk")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sijawig747:NOTHING0000@cluster0.pnxawhz.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "180")
@@ -22,27 +22,27 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001892801024"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Iro x ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒 ʜ ᴇ ʜ 𝐙 ᴀ ᴅ ɪ ✘ 𝐁 ❍ ᴛ [𝐒✘𝐔]")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6045293810").split())
+    map(int, getenv("OWNER_ID", "6101426503").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/shaeep043/Iro_x")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SH251204/MAXIM")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+    "SUPPORT_CHANNEL", "https://t.me/FeelinGs4uH")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/iro_x_support")
+    "SUPPORT_GROUP", "https://t.me/CrazyWorld_xD")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAKDvpTeUUAss4KD33XkKzTCZnMlEGoBTSyomXffjV0nCYMtCcdMgDUx46v-e5zTXDDNnPibNE0ZACchwW-dcZ9mc9yGLz5pVoXBxKFTO2GxgONBPYWBxkgYhSagVKccs_wS9ebyZRu-U6_HSvy7gP3CWqce12oZmw_CEDYBjrl3DUGaPuARCKXGmzcM5ZQHIntL2Ruy0JCnF4FqqMB0YTiveQpKh2LVwdvqsiQXm6ph8kTQnRlRs6w0utvShbQ0ahbZw_XV8fYhdAN2UQba1EBr5F6Li2S04DcrJlo512OT9OtBtuUBHtYDh_fmNPEa61M2LyXSwN7h4lxf_i8uazvAAAAAYYj444A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -104,7 +104,7 @@ LOG = 2
 LOG_FILE_NAME = "ɪꝛᴏ log.txt"
 adminlist = {}
 lyrical = {}
-DEV = 6045293810
+DEV = 6101426503
 chatstats = {}
 userstats = {}
 clean = {}
