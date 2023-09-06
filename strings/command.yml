@@ -1,5 +1,5 @@
 PING_COMMAND : ["ping", "alive"]
-START_COMMAND : ["start", "pikku"]
+START_COMMAND : ["start", "maxim"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
