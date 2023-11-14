@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001892801024"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒 ʜ ᴇ ʜ 𝐙 ᴀ ᴅ ɪ ✘ 𝐁 ❍ ᴛ [𝐒✘𝐔]")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6558900301").split())
+    map(int, getenv("OWNER_ID", "6497713721").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -104,7 +104,7 @@ LOG = 2
 LOG_FILE_NAME = "ɪꝛᴏ log.txt"
 adminlist = {}
 lyrical = {}
-DEV = 6558900301
+DEV = 6497713721
 chatstats = {}
 userstats = {}
 clean = {}
